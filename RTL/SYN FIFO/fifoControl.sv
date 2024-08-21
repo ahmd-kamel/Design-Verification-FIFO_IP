@@ -42,7 +42,7 @@ always_comb begin
                 rd_ptr_next = rd_ptr + 1;
                 full_next = 1'b0;
                 if(rd_ptr_next == rd_ptr)
-                    empty_next = 1'b1'
+                    empty_next = 1'b1;
             end
         end
 
